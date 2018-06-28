@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Avenir', 'sans-serif';
+}
+
+a {
+    color: #d8d8d8;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.container {
+    margin-top: 200px;
+}
