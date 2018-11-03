@@ -1,25 +1,48 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: center;
     font-family: 'Avenir', 'sans-serif';
 }
 
-a {
-    color: #d8d8d8;
-}
-
-a:hover {
+#resume {
+    background-color: black;
     color: white;
     text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 40px;
+}
+
+#resume:hover {
+    background-color: #782048bb;
+}
+
+#social-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+#social-link {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#social-link:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
+    padding: 10px;
+    margin: 10px;
 }
 
 img {
     width: 400px;
     height: 400px;
-    margin-bottom: 40px;
 }
 
 .container {
-    margin-top: 100px;
+    margin-top: 75px;
 }
