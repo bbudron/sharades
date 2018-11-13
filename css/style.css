@@ -5,6 +5,15 @@ body {
     font-family: 'Avenir', 'sans-serif';
 }
 
+.container {
+    margin-top: 50px;
+}
+
+#logo {
+    width: 400px;
+    height: 400px;
+}
+
 #resume {
     background-color: black;
     color: white;
@@ -23,26 +32,8 @@ body {
     justify-content: center;
 }
 
-#social-link {
-    background-color: rgba(0, 0, 0, 0.75);
-    color: white;
-    padding: 10px;
-    margin: 10px;
-    text-decoration: none;
-}
-
-#social-link:hover {
-    background-color: rgba(255, 255, 255, 0.75);
-    color: black;
-    padding: 10px;
-    margin: 10px;
-}
-
-img {
-    width: 400px;
-    height: 400px;
-}
-
-.container {
-    margin-top: 75px;
+#social-image {
+    max-width: 40px;
+    max-height: 40px;
+    padding: 20px;
 }
